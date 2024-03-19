@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    position: absolute ;
+    padding: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.navbar a{
+    color: white;
+}
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+.navbar .nav-links ul li.active a{
+    color: brown;
+    font-weight: 600;
+header{
+    background-image: url(bjf.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: wheat;
+text-align: center;
+background-size: cover;
+}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav a{
+    color: wheat;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: white;
+    border-bottom: 1px solid #919191;
+}
+header .principal{
+    margin-top: 40px;
+}
+header .principal p{
+    margin-top: -20px;
+    padding: 10px 10%;
+    height: 100vh;
+.corps-droite p{
+    float: left;
+    margin-top: 10px;
+  }  
+}
+.premieres-presentations{
+    display: flex;
+    background-color: #222f3e;
+    color: wheat; 
+    align-items: center;
+    margin-top: -20px;
+} 
+.offres{
+    background-image: url(fff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+    background-image: ;
+    color: wheat;   
+}
+.offres h1, .offres p{
+    text-align: center;
+}
+.offres .offres-cartes{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+ .offres .offres-cartes .carte{
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+ }
+ .offres .offres-cartes .carte img{
+    height: 60px;
+
+ }
+.premieres-presentations .gauche {
+  flex: 1;
+}
+@media screen and (max-width:810px){
+    
+}
+.premieres-presentations .droite{
+    margin: left 20px; ;
+   
+}
+
